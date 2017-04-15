@@ -21,7 +21,6 @@ PHP_MINFO_FUNCTION(myphpext)
 	php_info_print_table_row(2, "myphpext author", MYPHPEXT_AUTHOR);
     php_info_print_table_end();
 
-	DISPLAY_INI_ENTRIES();
 }
 
 const zend_function_entry myphpext_functions[] = {
