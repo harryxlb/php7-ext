@@ -139,7 +139,7 @@ zend_long xilog_write(char *log, zend_long level, char *file)
 			level_tip = "[DEBUG]";
 			break;
 		case L_WARNING:
-			level_tip = "[WARNING ";
+			level_tip = "[WARNING]";
 			break;
 		case L_ERROR:
 			level_tip = "[ERROR] ";
